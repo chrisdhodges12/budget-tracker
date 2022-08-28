@@ -38,6 +38,7 @@ function saveRecord(record) {
 
   //add record to object store
   transactionObjectStore.add(record);
+  alert("No internet connection.  Transaction will be completed upon reconnection!");
 }
 
 function uploadTransaction() {
